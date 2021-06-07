@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@apply base {
+  :root {
+    --primary: #283cec;
+  }
+
+  .container {
+    @apply px-3  md:px-6 lg:px-8 xl:px-12 2xl:px-14;
+  }
+}
